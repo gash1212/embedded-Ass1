@@ -34,7 +34,7 @@
  *
  * @return: void
  */
-void print_statistics(char * array, size_t size); 
+void print_statistics(unsigned char * array, size_t size); 
 
 /**
  * @brief print array 
@@ -46,7 +46,7 @@ void print_statistics(char * array, size_t size);
  *
  * @return: void
  */
-void print_array(char * array, size_t size);
+void print_array(unsigned char * array, size_t size);
 
 /**
  * @brief find mean of array
@@ -58,7 +58,19 @@ void print_array(char * array, size_t size);
  *
  * @return: the mean
  */
-char find_mean(char * array, size_t size);
+unsigned char find_mean(unsigned char * array, size_t size);
+
+/**
+ * @brief find median of array
+ * 
+ * Given an array of data and a length, returns the median
+ *
+ * @param array: the input array
+ * @param size: size of array
+ *
+ * @return: the mean
+ */
+unsigned char find_median(unsigned char * array, size_t size);
 
 /**
  * @brief find max of array
@@ -70,7 +82,7 @@ char find_mean(char * array, size_t size);
  *
  * @return: the maximum
  */
-char find_maximum(char * array, size_t size);
+unsigned char find_maximum(unsigned char * array, size_t size);
 
 /**
  * @brief find minimum of array
@@ -82,7 +94,7 @@ char find_maximum(char * array, size_t size);
  *
  * @return: the minimum
  */
-char find_minimum(char * array, size_t size);
+unsigned char find_minimum(unsigned char * array, size_t size);
 
 /**
  * @brief sort the array 
@@ -94,9 +106,9 @@ char find_minimum(char * array, size_t size);
  * @param array: the input array
  * @param size: size of array
  *
- * @return: the sorted array
+ * @return: void
  */
-char * sort_array(char * array, size_t size);
+void sort_array(unsigned char * array, size_t size);
 
 
 #endif /* __STATS_H__ */
