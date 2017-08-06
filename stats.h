@@ -25,17 +25,78 @@
 /* Add Your Declarations and Function Comments here */ 
 
 /**
- * @brief <Add Brief Description of Function Here>
+ * @brief print statistics
  *
- * <Add Extended Description Here>
+ * A function that prints the statistics of an array including minimum, maximum, mean, and median.
  *
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
+ * @param array: the input array
+ * @param size: size of array
  *
- * @return <Add Return Informaiton here>
+ * @return: void
  */
+void print_statistics(char * array, size_t size); 
+
+/**
+ * @brief print array 
+ *
+ * Given an array of data and a length, prints the array to the screen
+ *
+ * @param array: the input array
+ * @param size: size of array
+ *
+ * @return: void
+ */
+void print_array(char * array, size_t size);
+
+/**
+ * @brief find mean of array
+ * 
+ * Given an array of data and a length, returns the mean
+ *
+ * @param array: the input array
+ * @param size: size of array
+ *
+ * @return: the mean
+ */
+char find_mean(char * array, size_t size);
+
+/**
+ * @brief find max of array
+ * 
+ * Given an array of data and a length, returns the maximum
+ *
+ * @param array: the input array
+ * @param size: size of array
+ *
+ * @return: the maximum
+ */
+char find_maximum(char * array, size_t size);
+
+/**
+ * @brief find minimum of array
+ * 
+ * Given an array of data and a length, returns the minimum
+ *
+ * @param array: the input array
+ * @param size: size of array
+ *
+ * @return: the minimum
+ */
+char find_minimum(char * array, size_t size);
+
+/**
+ * @brief sort the array 
+ *  
+ * Given an array of data and a length, sorts the array from largest to smallest.
+ * (The zeroth Element should be the largest value, and the last element (n-1) 
+ * should be the smallest value.)
+ *
+ * @param array: the input array
+ * @param size: size of array
+ *
+ * @return: the sorted array
+ */
+char * sort_array(char * array, size_t size);
 
 
 #endif /* __STATS_H__ */
