@@ -9,13 +9,14 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file stats.c 
+ * @brief Functions for basic stats operations on array of chars
  *
- * <Add Extended Description Here>
+ * We do basic stats such as Min, Max, Mean, and Median on an array
+ * of chars
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author Gaurav Sharma
+ * @date August 6, 2017
  *
  */
 

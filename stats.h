@@ -9,13 +9,14 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file stats.h
+ * @brief Header for basic stats operation on array of chars
  *
- * <Add Extended Description Here>
+ * We do basic stats such as Min, Max, Mean, and Median on an array
+ * of chars
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author Gaurav Sharma
+ * @date August 6, 2017
  *
  */
 #ifndef __STATS_H__
